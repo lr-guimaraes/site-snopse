@@ -20,38 +20,25 @@
                 <button type="button" class= "button">feedback</button>
     
         </div>
-        <div align = "center">
-            <div class="background">
-                <table align="center" class="table">
-                    <tr align="center">
-                        <td>
-                            <h3 class="titulo">Olá! Para continua, digite seu<br> e-mail ou o usuario</h3>
-                        </td>
-                    </tr>
-                    <tr align="center">
-                        <td>
-                            <input class = "login" type = "text" placeholder="Usuario"id ="usuario" required>
-                            <span ></span>
-                        </td>
-                    </tr>
-                    <tr align="center">
-                        <td>
-                            <input class = "login" type = "password" placeholder= "senha" id="senha" required>
-                            <span id="ok"></span>
-                        </td>
-                    </tr>
-                    <tr align="center"> 
-                        <td>
-                            <p>Não possui conta? Click aqui: <button class="criarConta" onclick="location.href='cadastro.html'">Criar conta</button></p>
-                        </td>
-                    </tr>
-                    <tr align="center">
-                        <td>
-                            <button class="button_enter" onclick="Login();">Entrar</button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            </div>
+        <div class="login-box">
+            <h2>Login</h2>
+            <form>
+              <div class="user-box">
+                <input type="text" name="" required="">
+                <label>Username</label>
+              </div>
+              <div class="user-box">
+                <input type="password" name="" required="">
+                <label>Password</label>
+              </div>
+              <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Submit
+              </a>
+            </form>
+          </div>
     </body>
 </html>
