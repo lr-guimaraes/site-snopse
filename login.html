@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href = "css/style_login.css">
+        <script type="text/javascript" src="JS/JS_login.js" ></script>
+
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@500&family=Poppins:wght@600&family=Zen+Old+Mincho&display=swap');
+    </style>
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div>
+            <div class = "header">
+                <img src="imagens/logo.jpeg" width="105" height="40" />
+                <button type="button" class= "button"  onclick="location.href='index.html'">Inicio</button>
+                <button type="button" class= "button">Categorias</button>
+                <button type="button" class= "button">Sobre</button>
+                <button type="button" class= "button">feedback</button>
+    
+        </div>
+        <div align = "center">
+            <div class="background">
+                <table align="center" class="table">
+                    <tr align="center">
+                        <td>
+                            <h3 class="titulo">Olá! Para continua, digite seu<br> e-mail ou o usuario</h3>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "login" type = "text" placeholder="Usuario"id ="usuario" required>
+                            <span ></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "login" type = "password" placeholder= "senha" id="senha" required>
+                            <span id="ok"></span>
+                        </td>
+                    </tr>
+                    <tr align="center"> 
+                        <td>
+                            <p>Não possui conta? Click aqui: <button class="criarConta" onclick="location.href='cadastro.html'">Criar conta</button></p>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <button class="button_enter" onclick="Login();">Entrar</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+    </body>
+</html>

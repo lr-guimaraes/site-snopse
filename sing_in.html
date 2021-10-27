@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href = "css/style_sing_in.css">
+        <!--ARQUIVOS JS-->
+        <script type="text/javascript" src="JS/JS_cadastro.js"></script>
+        <!--Desing letras -->
+
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@500&family=Poppins:wght@600&family=Zen+Old+Mincho&display=swap');
+        </style>
+    
+    </head>
+    <body>
+        <div class ="layout">
+            <body>
+                <div>
+                    <div class = "header">
+                        <img src="imagens/logo.jpeg" width="105" height="40" />
+                        <button type="button" class= "button"  onclick="location.href='index.html'">Inicio</button>
+                        <button type="button" class= "button">Categorias</button>
+                        <button type="button" class= "button">Sobre</button>
+                        <button type="button" class= "button">feedback</button>
+        </div>
+        <div align = "center" class="background">
+            <div>
+                <table align="center" class="table">
+                    <tr align="center">
+                        <td>
+                            <h3>Bem vindo! Se esse é o seu primeiiro acesso<br>preencha os campos</h3>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "inputs" type = "text" placeholder="Nome"id ="nome" required>
+                            <span ></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "inputs" type = "text" placeholder="Sobrenome" id = "sobrenome" required>
+                            <span></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "inputs" type = "text" placeholder = "Matricula" id= "matricula" required>
+                            <span ></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "inputs " type = "text" placeholder="Usuário" id="usuario" required>
+                            <span></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "inputs " type = "text" placeholder="Endereço" id= "endereço"required>
+                            <span></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "inputs" type = "password" placeholder= "Senha" id = "senha" required minlength="8">
+                            <span id="ok"></span>
+                        </td>
+                    </tr>
+                    <tr align="center"> 
+                        <td>
+                            <p>Já possui conta? Click aqui: <button class="login" onclick="location.href='login.html'">Fazer Login</button></p>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <button class="save" onclick="cad();">Salvar</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
