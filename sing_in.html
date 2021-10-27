@@ -22,62 +22,36 @@
                         <button type="button" class= "button">Sobre</button>
                         <button type="button" class= "button">feedback</button>
         </div>
-        <div align = "center" class="background">
-            <div>
-                <table align="center" class="table">
-                    <tr align="center">
-                        <td>
-                            <h3>Bem vindo! Se esse é o seu primeiiro acesso<br>preencha os campos</h3>
-                        </td>
-                    </tr>
-                    <tr align="center">
-                        <td>
-                            <input class = "inputs" type = "text" placeholder="Nome"id ="nome" required>
-                            <span ></span>
-                        </td>
-                    </tr>
-                    <tr align="center">
-                        <td>
-                            <input class = "inputs" type = "text" placeholder="Sobrenome" id = "sobrenome" required>
-                            <span></span>
-                        </td>
-                    </tr>
-                    <tr align="center">
-                        <td>
-                            <input class = "inputs" type = "text" placeholder = "Matricula" id= "matricula" required>
-                            <span ></span>
-                        </td>
-                    </tr>
-                    <tr align="center">
-                        <td>
-                            <input class = "inputs " type = "text" placeholder="Usuário" id="usuario" required>
-                            <span></span>
-                        </td>
-                    </tr>
-                    <tr align="center">
-                        <td>
-                            <input class = "inputs " type = "text" placeholder="Endereço" id= "endereço"required>
-                            <span></span>
-                        </td>
-                    </tr>
-                    <tr align="center">
-                        <td>
-                            <input class = "inputs" type = "password" placeholder= "Senha" id = "senha" required minlength="8">
-                            <span id="ok"></span>
-                        </td>
-                    </tr>
-                    <tr align="center"> 
-                        <td>
-                            <p>Já possui conta? Click aqui: <button class="login" onclick="location.href='login.html'">Fazer Login</button></p>
-                        </td>
-                    </tr>
-                    <tr align="center">
-                        <td>
-                            <button class="save" onclick="cad();">Salvar</button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
+        <div class="login-box">
+            <h2>Cadastro</h2>
+            <form>
+              <div class="user-box">
+                <input type="text" name="" required="">
+                <label>Nome</label>
+              </div>
+              <div class="user-box">
+                <input  class="user-box" name="" required="">
+                <label>Usuario</label>
+              </div>
+              <div class="user-box">
+                <input  class="user-box" name="" required="">
+                <label>Usuario</label>
+              </div>
+              <div class="user-box">
+                <input  class="user-box" name="" required="">
+                <label>Idade</label>
+              </div>
+              <div class="user-box">
+                <input  class="password-box" name="" required="">
+                <label>Senha</label>
+              </div>
+              <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Submit
+              </a>
+            </form>
     </body>
 </html>
