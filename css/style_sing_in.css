@@ -1,0 +1,85 @@
+input{
+    width: 300px;
+    height: 50px;
+}
+p{
+    color:#fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+}
+h3{
+    color: #fff;
+}
+
+.header{
+    background-color: #350479; /* ou3700EE*/
+    width: 100%;
+    height: 74;
+    padding: none;   
+    margin: none;
+}
+.button{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 2px;
+
+}
+.button:hover{
+    font-size: 17px;
+    cursor: pointer;
+}
+.table{
+    background-image:url("../imagens/login.jpg");
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*opacity:0.4;
+    filter:alpha(opacity=40); */ 
+}  
+
+.button:hover{
+    font-size: 17px;
+    cursor: pointer;
+}
+.inputs{
+    background-color: gray;
+    color: #fff;
+    caret-color:#aa6df3;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.save{
+    width:156;
+    height:40;
+    background-color: #6200EE;
+    color: #fff;
+    align-items: right;
+    border: none;
+    padding: 0%;
+    margin-top: 0%;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+.save:hover{ 
+    width:156;
+    height:40;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.background{
+    background-image:url("../imagens/fundoprov.jpg");
+    background-color: #1b1f4d;
+    padding-top: 230px;
+    padding-bottom: 230px;
+
+}
