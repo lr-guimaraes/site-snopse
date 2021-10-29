@@ -1,0 +1,106 @@
+input{
+    width: 470px;
+    height: 60px;
+}
+p{
+    color:#fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 55px;
+}
+.header{
+    background-color: #350479; /* ou3700EE*/
+    width: 100%;
+    height: 75;
+    padding: none;   
+    margin: none;
+}
+.button{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 2px;
+    padding-top: 0%;
+
+}
+.button:hover{
+    font-size: 17px;
+    cursor: pointer;
+}
+.sing_in{
+    width:156;
+    height:40;
+    background-color: #aa6df3;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+.sing_in:hover{
+    width:156;
+    height:40;
+    background-color: #bb86fc;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.login{
+    width:156;
+    height:40;
+    background-color: #6200EE;
+    color: #fff;
+    align-items: right;
+    border: none;
+    padding: 0%;
+    margin-top: 0%;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+.login:hover{ 
+    width:156;
+    height:40;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.category{
+    background-image:url("../imagens/fundoprov.jpg");
+    background-color: #1b1f4d;
+    padding-top: 230px;
+    padding-bottom: 230px;
+
+}
+.search{
+    width:420px;
+    height:58px;
+    margin: none;
+}
+.button_search{
+    width:156px;
+    height:58px;
+    margin: none;
+    border: none;
+    cursor: pointer;
+    background-color: #6200EE;
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+}
+.button_search:hover{
+    background-color: #7722ee;
+}
+.baseboard{
+    background-color: #1b1f4d;
+    height:250px;
+    padding-top: 20px;
+}
+.icons{
+    filter: invert(100%);
+}
+.platforms{
+    color: #fff;
+}
