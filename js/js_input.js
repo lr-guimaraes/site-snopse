@@ -1,6 +1,6 @@
 function input(){
 
-	var keyword = ["SHERLOCK","MARVEL","+18"];
+    var keyword = ["SHERLOCK","MARVEL","+18"];
     var card = ["https://lr-guimaraes.github.io/site-snopse/cards.html","https://lr-guimaraes.github.io/site-snopse/cards_marvel.html","https://lr-guimaraes.github.io/site-snopse/card+18.html"];
     var keyword_input = document.getElementById("keyword").value;
     var cont = 0;
