@@ -1,20 +1,25 @@
 <html>
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href = "css/style_login.css">
-        <script type="text/javascript" src="JS/JS_login.js" ></script>
-
-        <style>
+        <meta charset="UTF-8" />
+    <!--Arquivo CSS-->
+    <link rel="stylesheet" href="css/style_snopse_elementary.css" />
+    <link rel="stylesheet" href="css/style_buttons_watch.css" /> 
+    <!--Estilo de fontes-->
+    <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@500&family=Poppins:wght@600&family=Zen+Old+Mincho&display=swap');
-    </style>
-<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-        
+        </style>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
     </head>
+    
     <body>
         <div>
-            <div class = "header">
+            <div class = "header" height="">
                 <img src="imagens/logo.jpeg" width="105" height="75" />
-                <button type="button" class= "button"  onclick="location.href='index.html'">Inicio</button>
+                <button type="button" class= "button_header" onclick="location.href='index.html'">Inicio</button>
                 <input type="checkbox" id="chec" class="Desing_logo">
                 <label for="chec">
                 <x class="button">Categoria</x>
@@ -48,29 +53,72 @@
                         <li><f href=""> Disney+</f></li>
                     </ul>
                 </nav>
-                <button type="button" class= "button">Sobre</button>
-                <button type="button" class= "button">feedback</button>
-    
+                <button type="button" class= "button_header">Sobre</button>
+                <button type="button" class= "button_header">feedback</button>
+
+                <div align="right">
+                    <button type="button" class= "sing_in" onclick= "location.href ='sing_in.html'">Cadastrar</button>
+                    <button type="button" class= "login"  onclick="location.href='login.html'">Entrar</button>
+                </div>
+            </div>
         </div>
-        <div class="login-box">
-            <h2>Login</h2>
-            <form>
-              <div class="user-box">
-                <input type="text" name="" required="">
-                <label>Username</label>
-              </div>
-              <div class="user-box">
-                <input type="password" name="" required="">
-                <label>Password</label>
-              </div>
-              <a href="#">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Submit
-              </a>
-            </form>
-          </div>
     </body>
+
+    <div class="background">
+        <div class="background_img">
+            <div class="card"></div>
+                <image class="logo" src ="logos/elemesntary.png" class="icons" width="400" height="150" />
+                    <div class="classfication">
+                        <p class="info">2012 |  7 Tempordas</p>
+                                <h3> Adaptação da obra de Sr Artur Conan Doyle se passando em 2021. Sherlock Holmes e Watson<br> se conhecem devido ao uso de drogas de Sherlock e viram parceiros, para solucionar crimes em<br> Nova York</h3>
+    
+                    </div>
+                    <table class="classfication">
+                        <tr>
+                            <td>
+                                <p>Atores:</p>
+                            </td>
+                            <td>
+                                <b>Benedict Cumberbatch, Martin Freeman</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Genero:</p>
+                            </td>
+                            <td>
+                                <b>Misterio, Ação e aventura</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>classfição:</p>
+                            </td>
+                            <td>
+                                <a class="classfication">14</a>
+                            </td>
+                        </tr>
+                    </table>
+                    <div><t>30 minutos gratis</t></div>
+                <div class="margin"><button class="button_watch">Assistir</button></div>
+                <div><t>Completo</t></div>
+                <div class="margin">
+                    <button class="button_globo" onclick= "location.href ='https://globoplay.globo.com/elementary/t/2nwhZGDgXK/'"></button>
+                </div>
+            </div>
+        </div>
+            <div>
+                <table class="background trailer">
+                    <tr><td><h2>Trailes</h2></td></tr>
+                    <tr>
+                        <td><iframe width="440" height="250" src="https://www.youtube.com/embed/ff-XiZzJLxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                        <td><iframe width="440" height="250" src="https://www.youtube.com/embed/h0KsMPkdDRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+        
+                        <td><iframe width="440" height="250" src="https://www.youtube.com/embed/AfHiUtxrmiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                        <td><iframe width="440" height="250" src="https://www.youtube.com/embed/hqDDUoF3Gh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe></iframe></td>
+                    </tr>
+            
+            </table>
+             </div>
+    </div>
 </html>
