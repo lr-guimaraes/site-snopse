@@ -115,7 +115,23 @@ t{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.button_telecinehover{
+.button_telecine:hover{
+    cursor: pointer;
+}
+.button_hbo{
+ 
+    background-image: url('../streaming/HBO.png');
+    padding: none;
+    color: #fff;
+    border: none;
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button_hbo:hover{
     cursor: pointer;
 }
 .button_star{
@@ -131,6 +147,6 @@ t{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.button_starhover{
+.button_star:hover{
     cursor: pointer;
 }
