@@ -3,6 +3,7 @@
         <meta charset="UTF-8" />
     <!--Arquivo CSS-->
     <link rel="stylesheet" href="css/style_snopse_shang_shi.css" />
+    <link rel="stylesheet" href="css/style_buttons_watch.css" /> 
 
     <!--Estilo de fontes-->
     <style>
@@ -20,7 +21,39 @@
             <div class = "header" height="">
                 <img src="imagens/logo.jpeg" width="135" height="75" />
                 <button type="button" class= "button_header" onclick="location.href='index.html'">Inicio</button>
-                <button type="button" class= "button_header">Categorias</button>
+                <input type="checkbox" id="chec" class="Desing_logo">
+                <label for="chec">
+                <x class="button">Categoria</x>
+                </label>
+                <nav>
+                    <ul>
+                        <x>Contudo</x>
+                        <li><f href="Pagina_inicial.html"> Filmes </f> </li>
+                        <li><f href="login.html">Series</f></li>
+                        <li><f href=""> Livros e HQs </f></li>
+                        <li><f href=""> Ação </f> </li>
+
+                        <x>Filmes</x>
+                        <li><f href="Pagina_inicial.html"> Ação </f> </li>
+                        <li><f href="login.html">Comédia</f></li>
+                        <li><f href=""> Aventura</f></li>
+
+                        <x>Series</x>
+                        <li><f href="Pagina_inicial.html"> Ação </f> </li>
+                        <li><f href="login.html">Comédia</f></li>
+                        <li><f href=""> Aventura</f></li>
+
+                        <x>Livros e Hqs</x>
+                        <li><f href="Pagina_inicial.html"> Ação </f> </li>
+                        <li><f href="login.html">Mistério</f></li>
+                        <li><f href=""> Aventura</f></li>
+
+                        <x>Streaming</x>
+                        <li><f href="Pagina_inicial.html"> NetFlix </f> </li>
+                        <li><f href="login.html">Amazon Prime Video</f></li>
+                        <li><f href=""> Disney+</f></li>
+                    </ul>
+                </nav>
                 <button type="button" class= "button_header">Sobre</button>
                 <button type="button" class= "button_header">feedback</button>
 
@@ -35,14 +68,11 @@
         <div class="background_img">
             <div class="card"></div>
                 <image class="logo" src ="logos/shang_shi.png" class="icons" width="400" height="150" />
-                <a class="info">2021 | 2h 12min </a>
-                    <table class="classfication">
-                        <tr class="snopse" aria-colspan="3">
-                        <td>
-                                <h3> Em Shang-Chi e a Lenda dos Dez Anéis, acompanhamos a história de Shang-Chi (Simu Liu), um jovem chinês que foi criado por seu pai em reclusão para que <br>pudesse focar totalmente em ser um mestre de artes marciais. Entretanto, quando ele tem a chance de entrar em contato com o resto do mundo pela primeira <br>vez, logo percebe que seu pai não é o humanitário que dizia ser, vendo-se obrigado a se rebelar e traçar o seu próprio caminho</h3>
-                        </td>
-                        </tr>
-                    </table>
+                    <div class="classfication">
+                        <a class="info">2021 | 2h 12min </a>
+                                <h3> Em Shang-Chi e a Lenda dos Dez Anéis, acompanhamos a história de Shang-Chi (Simu Liu),<br> um jovem chinês que foi criado por seu pai em reclusão para que pudesse focar totalmente em<br> ser um mestre de artes marciais. Entretanto, quando ele tem a chance de entrar em contato com<br>    o resto do mundo pela primeira vez, logo percebe que seu pai não é o humanitário que dizia ser,<br> vendo-se obrigado a se rebelar e traçar o seu próprio caminho</h3>
+ 
+                    </div>
                     <table class="classfication">
                         <tr>
                             <td>
@@ -69,7 +99,14 @@
                             </td>
                         </tr>
                     </table>
+                    <div><t>30 minutos gratis</t></div>
+            <div class="margin"><button class="button_watch">Assistir</button></div>
+            <div><t>Completo</t></div>
+            <div class="margin">
+                <button type="button_watch" class="button_disney"  onclick= "location.href ='https://www.disneyplus.com/pt-br?cid=DSS-Search-Google-71700000075038501-&s_kwcid=AL!8468!3!523589782285!b!!g!!disney%20plus%20marvel&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcKzOcLkWwfDT1IF_y2d1Y2R515e_h8Hx8tXdzzWaDsQA82y0YjIoKwaAhK4EALw_wcB&gclsrc=aw.ds'"></button>
             </div>
+                </div>
+            
         </div>
         <div>
         <table class="background trailer">
@@ -83,6 +120,7 @@
             </tr>
         
         </table>
+    
     </div>
     </div>
 </html>
