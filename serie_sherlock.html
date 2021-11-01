@@ -3,6 +3,7 @@
         <meta charset="UTF-8" />
     <!--Arquivo CSS-->
     <link rel="stylesheet" href="css/style_snopse_serie_sherlock.css" />
+    <link rel="stylesheet" href="css/style_buttons_watch.css" /> 
     <!--Estilo de fontes-->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@500&family=Poppins:wght@600&family=Zen+Old+Mincho&display=swap');
@@ -19,7 +20,39 @@
             <div class = "header" height="">
                 <img src="imagens/logo.jpeg"  width="105" height="75" />
                 <button type="button" class= "button_header" onclick="location.href='index.html'">Inicio</button>
-                <button type="button" class= "button_header">Categorias</button>
+                <input type="checkbox" id="chec" class="Desing_logo">
+                <label for="chec">
+                <x class="button">Categoria</x>
+                </label>
+                <nav>
+                    <ul>
+                        <x>Contudo</x>
+                        <li><f href="Pagina_inicial.html"> Filmes </f> </li>
+                        <li><f href="login.html">Series</f></li>
+                        <li><f href=""> Livros e HQs </f></li>
+                        <li><f href=""> Ação </f> </li>
+
+                        <x>Filmes</x>
+                        <li><f href="Pagina_inicial.html"> Ação </f> </li>
+                        <li><f href="login.html">Comédia</f></li>
+                        <li><f href=""> Aventura</f></li>
+
+                        <x>Series</x>
+                        <li><f href="Pagina_inicial.html"> Ação </f> </li>
+                        <li><f href="login.html">Comédia</f></li>
+                        <li><f href=""> Aventura</f></li>
+
+                        <x>Livros e Hqs</x>
+                        <li><f href="Pagina_inicial.html"> Ação </f> </li>
+                        <li><f href="login.html">Mistério</f></li>
+                        <li><f href=""> Aventura</f></li>
+
+                        <x>Streaming</x>
+                        <li><f href="Pagina_inicial.html"> NetFlix </f> </li>
+                        <li><f href="login.html">Amazon Prime Video</f></li>
+                        <li><f href=""> Disney+</f></li>
+                    </ul>
+                </nav>
                 <button type="button" class= "button_header">Sobre</button>
                 <button type="button" class= "button_header">feedback</button>
 
@@ -33,15 +66,13 @@
     <div class="background">
     <div class="background_img">
         <div class="card"></div>
-            <image class="logo" src ="logos/sherlock.png" class="icons"width="400" height="150" />
-            <p class="info">2010 | 4 Tempordas</p>
-                <table class="classfication">
-                    <tr class="snopse" aria-colspan="3">
-                    <td>
+            <image class="logo" src ="logos/Sherlock.png" class="icons"width="400" height="150" />
+           
+                <div class="classfication">
+                    <p class="info">2010 | 4 Tempordas</p>
                             <h3> Adaptação da obra de Sr Artur se passando em 2021. O detetive Sherlock<br> Holmes e dr. John Watson desenvolvem uma parceria, na qual a dupla <br> vagará pela capital inglesa solucionando crimes</h3>
-                       </td>
-                    </tr>
-                </table>
+
+                </div>
                 <table class="classfication">
                     <tr>
                         <td>
@@ -68,6 +99,12 @@
                         </td>
                     </tr>
                 </table>
+                <div><t>30 minutos gratis</t></div>
+                <div class="margin"><button class="button_watch">Assistir</button></div>
+                <div><t>Completo</t></div>
+                <div class="margin">
+                    <button type="button_watch" class="button_just"  onclick= "location.href ='https://www.justwatch.com/br/serie/sherlock'"></button>
+                </div>
             </div>
             <table class="background trailer">
                 <tr><td><h2>Trailes</h2></td></tr>
