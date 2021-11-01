@@ -3,7 +3,7 @@
         <meta charset="UTF-8" />
     <!--Arquivo CSS-->
     <link rel="stylesheet" href="css/style_snopse_loki.css" />
-
+    <link rel="stylesheet" href="css/style_buttons_watch.css" /> 
     <!--Estilo de fontes-->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@500&family=Poppins:wght@600&family=Zen+Old+Mincho&display=swap');
@@ -20,7 +20,39 @@
             <div class = "header" height="">
                 <img src="imagens/logo.jpeg" width="135" height="75" />
                 <button type="button" class= "button_header" onclick="location.href='index.html'">Inicio</button>
-                <button type="button" class= "button_header">Categorias</button>
+                <input type="checkbox" id="chec" class="Desing_logo">
+                <label for="chec">
+                <x class="button">Categoria</x>
+                </label>
+                <nav>
+                    <ul>
+                        <x>Contudo</x>
+                        <li><f href="Pagina_inicial.html"> Filmes </f> </li>
+                        <li><f href="login.html">Series</f></li>
+                        <li><f href=""> Livros e HQs </f></li>
+                        <li><f href=""> Ação </f> </li>
+
+                        <x>Filmes</x>
+                        <li><f href="Pagina_inicial.html"> Ação </f> </li>
+                        <li><f href="login.html">Comédia</f></li>
+                        <li><f href=""> Aventura</f></li>
+
+                        <x>Series</x>
+                        <li><f href="Pagina_inicial.html"> Ação </f> </li>
+                        <li><f href="login.html">Comédia</f></li>
+                        <li><f href=""> Aventura</f></li>
+
+                        <x>Livros e Hqs</x>
+                        <li><f href="Pagina_inicial.html"> Ação </f> </li>
+                        <li><f href="login.html">Mistério</f></li>
+                        <li><f href=""> Aventura</f></li>
+
+                        <x>Streaming</x>
+                        <li><f href="Pagina_inicial.html"> NetFlix </f> </li>
+                        <li><f href="login.html">Amazon Prime Video</f></li>
+                        <li><f href=""> Disney+</f></li>
+                    </ul>
+                </nav>
                 <button type="button" class= "button_header">Sobre</button>
                 <button type="button" class= "button_header">feedback</button>
 
@@ -35,14 +67,11 @@
         <div class="background_img">
             <div class="card"></div>
                 <image class="logo" src ="logos/loki.png" class="icons" width="400" height="150" />
-                <a class="info">2021 |  1 Tempordas | duração 50min </a>
-                    <table class="classfication">
-                        <tr class="snopse" aria-colspan="3">
-                        <td>
-                                <h3> Baseada no famoso vilão da Marvel, Loki é uma série original do Disney+ que eventos segue os passos de Loki (Tom Hiddleston) após os acontecimentos de  <br>Vingadores: Ultimato. Com o poder da gema do espaço, o Asgardiano começa a pular no tempo com a intenção de chegar a Midgard. Ao longo de sua jornada, ele <br>acaba interferindo em momentos importantes da história da humanidade – seja para cumprir seus próprios objetivos, seja para se divertir um pouco. O que ele <br>não sabe é que sua intervenção pode gerar uma catástrofe nas linhas do tempo e, assim, colocar em risco todo o universo.   </h3>
-                        </td>
-                        </tr>
-                    </table>
+                    <div class="classfication">
+                        <a class="info">2021 |  1 Tempordas | duração 50min </a>
+                                <h3> Baseada no famoso vilão da Marvel, Loki é uma série original do Disney+ que eventos segue os passos<br> de Loki (Tom Hiddleston) após os acontecimentos de  Vingadores: Ultimato. Com o poder da gema do<br> espaço, o Asgardiano começa a pular no tempo com a intenção de chegar a Midgard. Ao longo de sua<br> jornada, ele acaba interferindo em momentos importantes da história da humanidade – seja para<br> cumprir seus próprios objetivos, seja para se divertir um pouco. O que ele não sabe é que sua <br> intervenção pode gerar uma catástrofe nas linhas do tempo e, assim, colocar em risco todo o universo.   </h3>
+
+                    </div>
                     <table class="classfication">
                         <tr>
                             <td>
@@ -69,7 +98,14 @@
                             </td>
                         </tr>
                     </table>
+                    <div><t>30 minutos gratis</t></div>
+                    <div class="margin"><button class="button_watch">Assistir</button></div>
+                    <div><t>Completo</t></div>
+                    <div class="margin">
+                        <button type="button_watch" class="button_disney"  onclick= "location.href ='https://www.disneyplus.com/pt-br/series/loki/6pARMvILBGzF'"></button>
+                    </div>   
             </div>
+            
         </div>
         <div>
         <table class="background trailer">
