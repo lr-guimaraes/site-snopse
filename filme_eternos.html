@@ -3,7 +3,7 @@
         <meta charset="UTF-8" />
     <!--Arquivo CSS-->
     <link rel="stylesheet" href="css/style_snopse_eternos.css" />
-
+    <link rel="stylesheet" href="css/style_buttons_watch.css" /> 
     <!--Estilo de fontes-->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@500&family=Poppins:wght@600&family=Zen+Old+Mincho&display=swap');
@@ -20,7 +20,39 @@
             <div class = "header" height="">
                 <img src="imagens/logo.jpeg" width="135" height="75" />
                 <button type="button" class= "button_header" onclick="location.href='index.html'">Inicio</button>
-                <button type="button" class= "button_header">Categorias</button>
+                <input type="checkbox" id="chec" class="Desing_logo">
+                <label for="chec">
+                <x class="button">Categoria</x>
+                </label>
+                <nav>
+                    <ul>
+                        <x>Contudo</x>
+                        <li><f href="Pagina_inicial.html"> Filmes </f> </li>
+                        <li><f href="login.html">Series</f></li>
+                        <li><f href=""> Livros e HQs </f></li>
+                        <li><f href=""> Ação </f> </li>
+
+                        <x>Filmes</x>
+                        <li><f href="Pagina_inicial.html"> Ação </f> </li>
+                        <li><f href="login.html">Comédia</f></li>
+                        <li><f href=""> Aventura</f></li>
+
+                        <x>Series</x>
+                        <li><f href="Pagina_inicial.html"> Ação </f> </li>
+                        <li><f href="login.html">Comédia</f></li>
+                        <li><f href=""> Aventura</f></li>
+
+                        <x>Livros e Hqs</x>
+                        <li><f href="Pagina_inicial.html"> Ação </f> </li>
+                        <li><f href="login.html">Mistério</f></li>
+                        <li><f href=""> Aventura</f></li>
+
+                        <x>Streaming</x>
+                        <li><f href="Pagina_inicial.html"> NetFlix </f> </li>
+                        <li><f href="login.html">Amazon Prime Video</f></li>
+                        <li><f href=""> Disney+</f></li>
+                    </ul>
+                </nav>
                 <button type="button" class= "button_header">Sobre</button>
                 <button type="button" class= "button_header">feedback</button>
 
@@ -35,14 +67,11 @@
         <div class="background_img">
             <div class="card"></div>
                 <image class="logo" src ="logos/eternos.png" class="icons" width="400" height="150" />
-                <a class="info">2021 |  1 Tempordas | duração 50min </a>
-                    <table class="classfication">
-                        <tr class="snopse" aria-colspan="3">
-                        <td>
-                                <h3> Originários dos primeiros seres a terem habitado a Terra, Os Eternos fazem parte de uma raça modificada geneticamente pelos deuses espaciais conhecidos <br>como Celestiais. Dotados de características como imortalidade e manipulação de energia cósmica, eles são frutos de experiências fracassadas de seus <br>próprios criadores, que também foram responsáveis por gerar os Deviantes, seus principais inimigos</h3>
-                        </td>
-                        </tr>
-                    </table>
+
+                        <div class="snopse">
+                            <a class="info">2021 |  1 Tempordas | duração 50min </a>
+                                <h3> Originários dos primeiros seres a terem habitado a Terra, Os Eternos fazem parte de uma raça<br> modificada geneticamente pelos deuses espaciais conhecidos como Celestiais. Dotados de características<br> como imortalidade e manipulação de energia cósmica, eles são frutos de experiências fracassadas de seus <br>próprios criadores, que também foram responsáveis por gerar os Deviantes, seus principais inimigos</h3>
+                        </div>
                     <table class="classfication">
                         <tr>
                             <td>
@@ -69,14 +98,17 @@
                             </td>
                         </tr>
                     </table>
+                    <div><t>30 minutos gratis</t></div>
+                <div class="margin"><button class="button_watch">Assistir</button></div>
+                <div><t>Completo</t></div>
             </div>
         </div>
         <div>
         <table class="background trailer">
             <tr><td><h2>Trailes</h2></td></tr>
             <tr>
-                <td><<iframe width="440" height="250" src="https://www.youtube.com/embed/zgdDOLMSsVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                <td><<iframe width="440" height="250" src="https://www.youtube.com/embed/PJza3ZaFeAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                <td><iframe width="440" height="250" src="https://www.youtube.com/embed/zgdDOLMSsVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                <td><iframe width="440" height="250" src="https://www.youtube.com/embed/PJza3ZaFeAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
   
                 <td><iframe width="440" height="250" src="https://www.youtube.com/embed/SUTMoRUDUPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
                 <td><iframe width="440" height="250" src="https://www.youtube.com/embed/CmOMkn05gfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe></td>
