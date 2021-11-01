@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="css/style_index.css">
+        <script type="text/javascript" src="js/js_input.js" ></script>
 
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@500&family=Poppins:wght@600&family=Zen+Old+Mincho&display=swap');
@@ -11,10 +12,8 @@
     </head>
 
     <body>
-        
         <div>
             <div class = "header">
-
                 <img src="imagens/logo.jpeg" width="105" height="75" />
                 <button type="button" class= "button" onclick="location.href='index.html'">Inicio</button>
             
@@ -44,8 +43,8 @@
                             <li><f href=""> Disney+</f></li>
                         </ul>
                     </nav>
-                <button type="button" class= "button" onclick="location.href='cards.html'">Sobre</button>
-                <button type="button" class= "button" onclick="location.href='cards_marvel.html'">feedback</button>
+                <button type="button" class= "button" onclick="location.href=''">Sobre</button>
+                <button type="button" class= "button" onclick="location.href='feedback.html'">feedback</button>
 
                 <div align="right">
                     <button type="button" class= "sing_in" onclick= "location.href ='sing_in.html'">Cadastrar</button>
@@ -54,8 +53,8 @@
             </div>
             <div class = "category"  align="center">
                 <p>As melhores snopses, e sugestões de<br> filmes,series e livros </p>
-                <input type="text" class="search" placeholder="Pesquisar filmes, series e livros">
-                <button type="button" class="button_search">Pesquisar</button>
+                <input type="text" class="search" placeholder="Pesquisar filmes, series e livros" id="keyword">
+                <button type="button" class="button_search" onclick="input();">Pesquisar</button>
             </div>
         </div>
         
@@ -188,10 +187,7 @@
                     </td>
                 </tr>
             </table>
-            
         </div>
-        
-      
-          </div>
+        </div>
     </body>
 </html>
