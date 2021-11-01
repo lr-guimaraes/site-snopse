@@ -8,7 +8,6 @@ function input(){
     if(keyword.length =="" || keyword.length == null){
         alert("Campo vazio, digite a categoria");
     }
-   
     for (var i = 0; i < keyword.length; i++){
         if ( keyword_input.toUpperCase() == keyword[i]){
             window.location.href = card[i];
