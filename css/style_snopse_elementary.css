@@ -198,7 +198,7 @@ x:hover{
 }
 .background_img{
   
-    background-image: linear-gradient(to left, transparent 0%,rgb(42, 35, 51) 80%),url("../imagens/elementary.jpeg");
+    background-image: linear-gradient(to left, transparent 0%,rgb(42, 35, 51) 80%),url("../imagens/Elementary.jpeg");
     height:800px;
     margin-left: 50px;
     margin-right: 50px;
