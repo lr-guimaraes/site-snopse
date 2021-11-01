@@ -118,3 +118,19 @@ t{
 .button_telecinehover{
     cursor: pointer;
 }
+.button_star{
+ 
+    background-image: url('../streaming/star.png');
+    padding: none;
+    color: #fff;
+    border: none;
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button_starhover{
+    cursor: pointer;
+}
