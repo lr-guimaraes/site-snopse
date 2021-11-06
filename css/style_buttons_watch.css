@@ -115,7 +115,7 @@ t{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.button_telecine:hover{
+.button_telecinehover{
     cursor: pointer;
 }
 .button_hbo{
@@ -131,7 +131,7 @@ t{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.button_hbo:hover{
+.button_hbohover{
     cursor: pointer;
 }
 .button_star{
@@ -147,6 +147,6 @@ t{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.button_star:hover{
+.button_starhover{
     cursor: pointer;
 }

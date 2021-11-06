@@ -1,17 +1,31 @@
-function commentary(){
-    var feed = document.getElementById("feed").value;
+/* $(document).ready(function(){
 
-    var Feedback = [];
+    fLocalEventosClick();
+}); */
 
-    Feedback.push(feed);
- 
-    storage = window.localStorage;
-    var FeedbackStorage = JSON.parse(JSON.stringify(Feedback));
+function fLocalEventosClick(){
 
-   localStorage.setItem('FeedbackStorage',JSON.stringify(FeedbackStorage));
+    $("#btxt").click(function(){
 
-    if (FeedbackStorage != ""){
-        print("Agradecemos o seu feedback");
-    }
-    window.localStorage.clear;
+        alert("gravar");
+        fLocalComunicaServidor("inserir");
+        return false;
+    });
 }
+
+
+function fLocalComunicaServidor(arquivo){
+
+    var valores = $("form").serialize();
+
+    $.ajax({
+        type: "POST",
+        dataType: "json",// bListaR
+        data: valores, 
+        url: "php/" + arquivo +".php",
+        success: function(retorno){
+
+        }
+    });
+}
+
