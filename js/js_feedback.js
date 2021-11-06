@@ -5,7 +5,7 @@
 
 function fLocalEventosClick(){
 
-    $("#btxt").click(function(){
+    $("#txt").click(function(){
 
         alert("gravar");
         fLocalComunicaServidor("inserir");

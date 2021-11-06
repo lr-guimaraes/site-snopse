@@ -1,6 +1,6 @@
 <?php
 
-    $NameUser = $_POST["NameUser"];
+    $NameUser = "A";
     $BirthDate = $_POST["BirthDate"];
     $User = $_POST["User"];
     $Email = $_POST["Email"];
