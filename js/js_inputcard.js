@@ -1,6 +1,6 @@
 function input(){
 
-	var keyword = ["SHERLOCK","MARVEL","CLASSIFICACAO ALTA"];
+    var keyword = ["SHERLOCK","MARVEL","CLASSIFICACAO+"];
     var card = ["cards.html","cards_marvel.html","card+18.html"];
     var keyword_input = document.getElementById("keyword").value;
     var cont = 0;
