@@ -1,12 +1,15 @@
 # site-sinopse
 
+## Link de acesso:
+https://lr-guimaraes.github.io/site-snopse-TDE/
+
 ## Search
 
 - sherlock
     - all series
     - Fist movie
     - none books
-- +18 
+- Classificacao+
     - Series
       - Round 6
       - The boys
